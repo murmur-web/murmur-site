@@ -1,0 +1,112 @@
+.simple-page{
+  padding-bottom:90px;
+}
+
+.simple-header{
+  padding-top:8px;
+
+  margin-bottom:70px;
+}
+
+.hero-mark{
+  width:56px;
+  height:8px;
+
+  background:var(--yellow);
+
+  border-radius:999px;
+
+  margin-bottom:28px;
+}
+
+.simple-title{
+  margin:0;
+}
+
+.simple-lead{
+  margin-top:26px;
+
+  max-width:40em;
+
+  color:#5a5f59;
+}
+
+.simple-content{
+  max-width:44em;
+}
+
+.simple-content section{
+  margin-top:64px;
+}
+
+.simple-content h2{
+  margin-bottom:18px;
+}
+
+.simple-content ul{
+  margin-top:18px;
+}
+
+.simple-content li + li{
+  margin-top:14px;
+}
+
+.simple-note{
+  margin-top:36px;
+
+  color:var(--muted);
+
+  font-size:.94rem;
+}
+
+.simple-footer{
+  margin-top:90px;
+
+  padding-top:30px;
+
+  border-top:1px solid var(--line);
+}
+
+.simple-footer-links{
+  display:flex;
+
+  gap:22px;
+
+  flex-wrap:wrap;
+}
+
+.simple-footer-links a{
+  color:#6f746f;
+
+  text-decoration:none;
+
+  font-size:.92rem;
+
+  transition:opacity .18s ease;
+}
+
+.simple-footer-links a:hover{
+  opacity:.65;
+}
+
+.contact-warning{
+  color:#a15c5c;
+
+  font-weight:600;
+}
+
+@media (max-width:720px){
+
+  .simple-page{
+    padding-bottom:70px;
+  }
+
+  .simple-header{
+    margin-bottom:56px;
+  }
+
+  .simple-content section{
+    margin-top:54px;
+  }
+
+}

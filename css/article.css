@@ -1,0 +1,222 @@
+.hero{
+  padding-top:8px;
+
+  margin-bottom:88px;
+}
+
+.hero-mark{
+  width:56px;
+  height:8px;
+
+  background:var(--yellow);
+
+  border-radius:999px;
+
+  margin-bottom:28px;
+}
+
+.lead{
+  margin-top:30px;
+
+  max-width:42em;
+
+  color:#4d514d;
+
+  font-size:1.02rem;
+}
+
+.hero-illustration{
+  width:100%;
+  max-width:380px;
+
+  margin:
+    42px auto
+    0;
+}
+
+.hero-illustration img,
+.section-illustration img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+
+section{
+  margin-top:100px;
+}
+
+.section-illustration{
+  width:100%;
+  max-width:440px;
+
+  margin:44px auto 0;
+}
+
+.section-illustration.narrow{
+  max-width:340px;
+}
+
+.soft-block{
+  margin-top:34px;
+
+  padding:
+    24px
+    26px;
+
+  background:rgba(228,216,167,.12);
+
+  border-radius:18px;
+}
+
+.soft-block h3,
+.soft-block h4{
+  margin-top:0;
+}
+
+.references{
+  margin-top:120px;
+
+  padding-top:40px;
+
+  border-top:1px solid var(--line);
+}
+
+.references h2{
+  margin-bottom:20px;
+}
+
+.note{
+  margin-top:28px;
+
+  color:var(--muted);
+
+  font-size:.94rem;
+}
+
+.affiliate-space{
+  margin-top:90px;
+
+  padding-top:34px;
+
+  border-top:1px solid var(--line);
+}
+
+.affiliate-space h2{
+  margin-bottom:16px;
+}
+
+.affiliate-note{
+  color:var(--muted);
+
+  font-size:.95rem;
+}
+
+.article-meta{
+  margin-top:0.8rem;
+  font-size:0.78rem;
+  opacity:0.42;
+  letter-spacing:0.04em;
+}
+
+.breadcrumb{
+  margin-bottom:26px;
+
+  color:var(--muted);
+
+  font-size:.84rem;
+  line-height:1.8;
+}
+
+.breadcrumb a{
+  color:inherit;
+
+  text-decoration:none;
+
+  transition:opacity .18s ease;
+}
+
+.breadcrumb a:hover{
+  opacity:.7;
+}
+
+.breadcrumb-separator{
+  margin:
+    0
+    0.45em;
+
+  opacity:.42;
+}
+
+.breadcrumb .current{
+  opacity:.72;
+}
+
+@media (max-width:720px){
+
+  .hero{
+    margin-bottom:72px;
+  }
+
+  section{
+    margin-top:82px;
+  }
+
+  .hero-illustration{
+    max-width:280px;
+  }
+
+  .section-illustration{
+    max-width:320px;
+  }
+
+  .section-illustration.narrow{
+    max-width:250px;
+  }
+
+  .soft-block{
+    padding:
+      22px
+      20px;
+  }
+
+  .related-notes{
+  margin-top:100px;
+
+  padding-top:36px;
+
+  border-top:1px solid var(--line);
+}
+
+.related-notes h2{
+  margin-bottom:22px;
+}
+
+.related-notes ul{
+  list-style:none;
+
+  padding:0;
+}
+
+.related-notes li + li{
+  margin-top:16px;
+}
+
+.related-notes a{
+  color:var(--text);
+
+  text-decoration:none;
+
+  line-height:1.9;
+
+  transition:
+    opacity .18s ease,
+    transform .18s ease;
+}
+
+.related-notes a:hover{
+  opacity:.7;
+
+  transform:translateX(4px);
+}
+
+}
