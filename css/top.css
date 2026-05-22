@@ -206,6 +206,14 @@
   letter-spacing:.07em;
 }
 
+.article-link.is-new::after{
+  content:"new";
+  margin-left:0.6em;
+  font-size:0.72rem;
+  opacity:0.45;
+  letter-spacing:0.08em;
+}
+
 @media (max-width:720px){
 
   .top-page{
