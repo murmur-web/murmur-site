@@ -151,6 +151,37 @@ section{
   opacity:.72;
 }
 
+.idea-table{
+  width:100%;
+
+  margin:
+    28px
+    0;
+
+  border-collapse:collapse;
+
+  font-size:.96rem;
+  line-height:1.9;
+}
+
+.idea-table th,
+.idea-table td{
+  padding:
+    18px
+    14px;
+
+  text-align:left;
+  vertical-align:middle;
+
+  border:1px solid var(--line);
+}
+
+.idea-table th{
+  font-weight:650;
+
+  color:#404340;
+}
+
 @media (max-width:720px){
 
   .hero{
