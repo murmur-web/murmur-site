@@ -3,15 +3,19 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-    <loc>https://murmur-lab.com/</loc>
+    <loc>https://murmur-lab.com</loc>
   </url>
 
   <url>
-    <loc>https://murmur-lab.com/privacy.html</loc>
+    <loc>https://murmur-lab.com/privacy</loc>
   </url>
 
   <url>
-    <loc>https://murmur-lab.com/contact.html</loc>
+    <loc>https://murmur-lab.com/contact</loc>
+  </url>
+
+  <url>
+    <loc>https://murmur-lab.com/disclaimer</loc>
   </url>
 
   <url>
