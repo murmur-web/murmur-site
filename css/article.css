@@ -188,72 +188,61 @@ section{
   color:#404340;
 }
 
-@media (max-width:720px){
+@media (max-width: 720px) {
 
-  .hero{
-    margin-bottom:72px;
+  .hero {
+    margin-bottom: 72px;
   }
 
-  section{
-    margin-top:82px;
+  section {
+    margin-top: 82px;
   }
 
-  .hero-illustration{
-    max-width:280px;
+  .hero-illustration {
+    max-width: 280px;
   }
 
-  .section-illustration{
-    max-width:320px;
+  .section-illustration {
+    max-width: 320px;
   }
 
-  .section-illustration.narrow{
-    max-width:250px;
+  .section-illustration.narrow {
+    max-width: 250px;
   }
 
-  .soft-block{
-    padding:
-      22px
-      20px;
+  .soft-block {
+    padding: 22px 20px;
   }
 
-  .related-notes{
-  margin-top:100px;
+} /* ←メディアクエリの閉じ括弧が抜けていたため追加 */
 
-  padding-top:36px;
-
-  border-top:1px solid var(--line);
+.related-notes {
+  margin-top: 100px;
+  padding-top: 36px;
+  border-top: 1px solid var(--line);
 }
 
-.related-notes h2{
-  margin-bottom:22px;
+.related-notes h2 {
+  margin-bottom: 22px;
 }
 
-.related-notes ul{
-  list-style:none;
-
-  padding:0;
+.related-notes ul {
+  list-style: none;
+  padding: 0;
 }
 
-.related-notes li + li{
-  margin-top:16px;
+.related-notes li + li {
+  margin-top: 16px;
 }
 
-.related-notes a{
-  color:var(--text);
-
-  text-decoration:none;
-
-  line-height:1.9;
-
-  transition:
-    opacity .18s ease,
-    transform .18s ease;
+.related-notes a {
+  color: var(--text);
+  text-decoration: none;
+  line-height: 1.9;
+  transition: opacity .18s ease, transform .18s ease;
 }
 
-.related-notes a:hover{
-  opacity:.7;
-
-  transform:translateX(4px);
-}
-
+.related-notes a:hover {
+  opacity: .7;
+  transform: translateX(4px);
 }
